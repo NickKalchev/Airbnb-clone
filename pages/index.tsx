@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Banner from '../components/Banner'
 import Header from '../components/Header'
 
 const Home: NextPage = () => {
@@ -8,12 +9,12 @@ const Home: NextPage = () => {
     <div className="">
       <Head>
         <title>Airbnb Clone</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/assets/airbnb.png" />
       </Head>
       
       {/** Header */}
       <Header />
-      {/** Banner */}
+      <Banner />
       {/* * Content */}
 
     </div>
